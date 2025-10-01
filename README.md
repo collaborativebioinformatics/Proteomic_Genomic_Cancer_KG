@@ -9,7 +9,7 @@ graph TD;
   A["Database Sourcing"]-->B["Split Preprocessing and Work (Extract)"];
   B-->C["Transform and Merge Data"];
   C-->D["Construct KG"];
-  D-->E["Classification with KG"]
+  D-->E["Classification with GNN"]
 ```
 
 ### Steps
