@@ -8,7 +8,8 @@ Develop a graph neural network to integrate proteomic and genomic features for c
 graph TD;
   A["Database Sourcing"]-->B["Split Preprocessing and Work (Extract)"];
   B-->C["Transform and Merge Data"];
-  C-->D["Construct KG, potential GNN application"]
+  C-->D["Construct KG"];
+  D-->E["Classification with KG"]
 ```
 
 ### Steps
