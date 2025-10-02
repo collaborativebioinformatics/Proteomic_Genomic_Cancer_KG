@@ -24,11 +24,6 @@ graph TD;
   - [GNNMutation](https://github.com/nozlemozcan/GNNMutation/blob/main/data/README.md) - heterogeneous graph-based framework for cancer detection
   - [MoGCN](https://github.com/Lifoof/MoGCN) - a multi-omics integration model based on graph convolutional network (GCN) was developed for cancer subtype classification and analysis 
  
-- Graph Construction
-  - Nodes: Protein nodes (with abundance features), Patient nodes (with optional clinical covariates).
-  - Edges:
-    - Patient ↔ Protein (mutation edges).
-    - Protein ↔ Protein (STRING PPIs or co-expression).
 
 ### Steps
 1. Find or construct knowledge graphs relating both cancer genomics + proteomics data
@@ -52,3 +47,9 @@ graph TD;
 8) Define Heterogeneous GNN.
 9) Train the model and evaluate predictions.
 10) Save tensors, labels, and metadata for later use.
+
+### Graph Construction
+  - Nodes: Protein nodes (with abundance features), Patient nodes (with optional clinical covariates).
+  - Edges:
+    - Patient ↔ Protein (mutation edges).
+    - Protein ↔ Protein (STRING PPIs or co-expression).
