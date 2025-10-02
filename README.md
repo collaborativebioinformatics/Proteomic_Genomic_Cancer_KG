@@ -29,7 +29,7 @@ graph TD;
   - Nodes: Protein nodes (with abundance features), Patient nodes (with optional clinical covariates).
   - Edges:
     - Patient ↔ Protein (mutation edges).
-    - Protein ↔ Protein (STRING PPIs or co-expression fallback computed only from train set).
+    - Protein ↔ Protein (STRING PPIs or co-expression).
 
 ### Steps
 1. Find or construct knowledge graphs relating both cancer genomics + proteomics data
