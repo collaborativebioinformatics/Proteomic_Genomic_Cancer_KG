@@ -12,6 +12,12 @@ graph TD;
   D-->E["Classification with GNN"]
 ```
 
+### Methods
+- Dataset Aggregation
+  - 
+- GNNs
+  - [RSEA-MVGNN](https://github.com/junyu000/RSEA-MVGNN)
+
 ### Steps
 1. Find or construct knowledge graphs relating both cancer genomics + proteomics data
   - Knowledge base from CPTAC data: https://kb.linkedomics.org/, link to paper: https://doi.org/10.1016/j.cels.2023.07.007
