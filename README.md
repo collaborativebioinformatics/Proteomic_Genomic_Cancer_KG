@@ -14,7 +14,11 @@ graph TD;
 
 ### Methods
 - Dataset Aggregation
-  - 
+  - CPTAC proteomics (tumor + normal), somatic mutations, clinical subtype files (CMS for colorectal, PAM50 for breast, TCGA OV subtypes).
+  - Baseline normalization using normals as a reference to avoid leakage.
+  - Cleaning and filtering by missingness thresholds.
+  - Median imputation with missingness mask channel.
+  
 - GNNs
   - [RSEA-MVGNN](https://github.com/junyu000/RSEA-MVGNN)
 
