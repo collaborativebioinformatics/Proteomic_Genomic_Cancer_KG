@@ -24,6 +24,12 @@ graph TD;
   - [RSEA-MVGNN](https://github.com/junyu000/RSEA-MVGNN)
   - [MVGNN](https://github.com/uta-smile/CD-MVGNN) - for predicting cancer differentiation and subtype classification
   - [GNNMutation](https://github.com/nozlemozcan/GNNMutation/blob/main/data/README.md) - heterogeneous graph-based framework for cancer detection
+ 
+- Graph Construction
+  - Nodes: Protein nodes (with abundance features), Patient nodes (with optional clinical covariates).
+  - Edges:
+    - Patient ↔ Protein (mutation edges).
+    - Protein ↔ Protein (STRING PPIs or co-expression fallback computed only from train set).
 
 ### Steps
 1. Find or construct knowledge graphs relating both cancer genomics + proteomics data
