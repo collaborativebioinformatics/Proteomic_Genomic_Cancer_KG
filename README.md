@@ -13,6 +13,7 @@ graph TD;
 ```
 
 ### Methods
+
 - Dataset Aggregation
   - CPTAC proteomics (tumor + normal), somatic mutations, clinical subtype files (CMS for colorectal).
   - Baseline normalization using normals as a reference to avoid leakage.
@@ -21,6 +22,8 @@ graph TD;
   
 - GNNs
   - [RSEA-MVGNN](https://github.com/junyu000/RSEA-MVGNN)
+  - [MVGNN](https://github.com/uta-smile/CD-MVGNN) - for predicting cancer differentiation and subtype classification
+  - [GNNMutation](https://github.com/nozlemozcan/GNNMutation/blob/main/data/README.md) - heterogeneous graph-based framework for cancer detection
 
 ### Steps
 1. Find or construct knowledge graphs relating both cancer genomics + proteomics data
@@ -31,7 +34,6 @@ graph TD;
 2. Add ontologies: StringDB / GO
 3. With a KG (where nodes represent genes/variants), and edge index (what nodes are connected), pass to a simple graph convolutional network with a classification head -> final output: cancer subtype
 4. Validation testing 
-
 
 ### Progress of Working Pipeline
 
