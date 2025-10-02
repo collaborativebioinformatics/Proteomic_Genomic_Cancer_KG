@@ -27,3 +27,17 @@ graph TD;
 2. Add ontologies: StringDB / GO
 3. With a KG (where nodes represent genes/variants), and edge index (what nodes are connected), pass to a simple graph convolutional network with a classification head -> final output: cancer subtype
 4. Validation testing 
+
+
+### Progress of Working Pipeline
+
+1) Download CPTAC COAD datasets (proteomics, mutations, clinical).
+2) Clean, filter, and normalize proteomics data.
+3) Convert to PyTorch tensors.
+4) Align mutations to proteins/patients and build edge indices.
+5) Load patient subtype labels.
+6) Build heterogeneous PyG dataset (Patient ↔ Protein).
+7) Split into train/val/test.
+8) Define Heterogeneous GNN.
+9) Train the model and evaluate predictions.
+10) Save tensors, labels, and metadata for later use.
