@@ -24,6 +24,7 @@ graph TD;
   - [RSEA-MVGNN](https://github.com/junyu000/RSEA-MVGNN)
   - [MVGNN](https://github.com/uta-smile/CD-MVGNN) - for predicting cancer differentiation and subtype classification
   - [GNNMutation](https://github.com/nozlemozcan/GNNMutation/blob/main/data/README.md) - heterogeneous graph-based framework for cancer detection
+  - [MoGCN](https://github.com/Lifoof/MoGCN), a multi-omics integration model based on graph convolutional network (GCN) was developed for cancer subtype classification and analysis 
  
 - Graph Construction
   - Nodes: Protein nodes (with abundance features), Patient nodes (with optional clinical covariates).
