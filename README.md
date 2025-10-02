@@ -7,7 +7,7 @@ Develop a graph neural network to integrate proteomic and genomic features for c
 ```mermaid
 graph TD;
   A["Database Sourcing (CPTAC)"]-->B["Exploratory Data Analysis"];
-  B-->C["Data Preprocessing and Feature Analysis"];
+  B-->C["Data Preprocessing, Merging, and Feature Analysis"];
   C-->D["Classification with GNN (using CMS)"]
 ```
 
