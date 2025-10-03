@@ -59,6 +59,15 @@ pip install -e .
 ### Next Steps?
 
 - [Clinical Knowledge Graph (CKG)](https://ckg.readthedocs.io/en/latest/INTRO.html), HUGE resource for analysis of proteomics clinical data.
+- [DisGeNET](https://disgenet.com/), relationships between diseases and human diseases
+- DrugBank
+- DrugCentral
+- Entrez Gene
+- MONDO disease ontology
+- Rectome pathway database
+- Side effects knowledgebase
+- ...
+- You get the idea! So many more data can be added to aid classification. LLMs can be used to help bridge the gap between terms (PrimeKG style), and even images (segmentation / obj. detection) can be integrated!
 
 ## Workflow
 How we approached the problem.
