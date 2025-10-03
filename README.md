@@ -1,6 +1,24 @@
 # Proteomic_Genomic_Cancer_KG
 Develop a graph neural network to integrate proteomic and genomic features for cancer subtype classification (e.g. CPTAC-2 and CPTAC-3 breast, colorectal, and ovarian cancer data)
 
+## Development Environment
+
+1. Install [GithubDesktop](https://desktop.github.com/download/) or git.
+2. Clone the repository
+```
+git clone https://github.com/collaborativebioinformatics/Proteomic_Genomic_Cancer_KG.git
+cd Proteomic_Genomic_Cancer_KG
+```
+3. Install [anaconda](https://www.anaconda.com/download) or [mini-conda](https://www.anaconda.com/docs/getting-started/miniconda/install)
+4. Create conda environment
+```
+conda create -n cptac-kgnn python==3.12
+```
+5. Install python dependencies
+```
+pip install -e .
+```
+
 ## Prototype Workflow
 
 ### Overview
