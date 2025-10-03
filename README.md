@@ -24,7 +24,7 @@ pip install -e .
 
 ### Dataset Aggregation
 
-  - CPTAC proteomics (tumor + normal), somatic mutations, clinical subtype files (CMS for colorectal).
+  - [CPTAC COAD](https://www.cancerimagingarchive.net/collection/cptac-coad/) proteomic dataset (tumor + normal), somatic mutations, clinical subtype files using Consensus Molecular Subtypes (CMS) annotations.
   - Baseline normalization using normals as a reference to avoid leakage.
   - Cleaning and filtering by missingness thresholds.
   - Median imputation with missingness mask channel.
@@ -40,6 +40,18 @@ pip install -e .
   - [GNNMutation](https://github.com/nozlemozcan/GNNMutation/blob/main/data/README.md) - heterogeneous graph-based framework for cancer detection (**training soon!**)
   - [MVGNN](https://github.com/uta-smile/CD-MVGNN) - for predicting cancer differentiation and subtype classification
   - [MoGCN](https://github.com/Lifoof/MoGCN) - a multi-omics integration model based on graph convolutional network (GCN) was developed for cancer subtype classification and analysis 
+
+### Literature Review
+
+#### Knowledge Graphs
+
+- [A knowledge graph to interpret clinical proteomics data](https://www.nature.com/articles/s41587-021-01145-6),
+- [KG-Hub-building and exchanging biological knowledge graphs](https://pubmed.ncbi.nlm.nih.gov/37389415/)
+- [Building a knowledge graph to enable precision medicine](https://www.nature.com/articles/s41597-023-01960-3)
+- [Democratizing knowledge representation with BioCypher](https://www.nature.com/articles/s41587-023-01848-y)
+
+#### Oncology
+- [Validating Subtype Specific Oncology Drug Predictions](https://opendataknowl-b7u8178.slack.com/archives/C09HXSE7FAS/p1759341488941499)
 
 ## Workflow
 How we approached the problem.
