@@ -1,9 +1,44 @@
 [project]
 name = "proteomic-genomic-cancer-kg"
 version = "0.1.0"
-description = "Develop a graph neural network to integrate proteomic and genomic features for cancer subtype classification"
+description = "Develop a graph neural network to integrate proteomic and genomic features for cancer subtype classification (e.g. CPTAC-2 and CPTAC-3 breast, colorectal, and ovarian cancer data)"
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    {
+      name = "Marcin Domagalski"
+      github = "https://github.com/mdomagalski"
+    },
+    { 
+      name = "Andrew Scouten" 
+      github = "https://github.com/andrewscouten"
+    },
+    {
+      name = "Anurag Limdi"
+      github = "https://github.com/anuraglimdi"
+    },
+    {
+      name =  "Bijan Paul"
+      github = "https://github.com/bijanunl"
+    },
+    {
+      name = "Camille Daniels"
+      github = "https://github.com/CamilleDaniels"
+    },
+    {
+      name = "Shakuntala Mitra"
+      github = "https://github.com/dna-witch"
+    },
+    {
+      name = "Irene López Santiago"
+      github = "https://github.com/ireneisdoomed"
+    },
+    {
+      name = "Raghavendra Kini"
+      github = "https://github.com/raghskini-dev"
+    },
+]
+
 dependencies = [
     "ipython>=9.6.0",
     "loguru>=0.7.3",
@@ -13,4 +48,10 @@ dependencies = [
     "pathlib>=1.0.1",
     "scikit-learn>=1.7.2",
     "torch>=2.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "jupyterlab>=4.0",
+  "ipykernel>=6.29",
 ]
