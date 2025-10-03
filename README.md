@@ -3,6 +3,7 @@ Develop a graph neural network to integrate proteomic and genomic features for c
 
 ## Prototype Workflow
 
+
 ### Overview
 ```mermaid
 graph TD;
@@ -12,6 +13,11 @@ graph TD;
 ```
 
 ### Methods
+
+#### PPI 
+
+<img width="658" height="486" alt="image" src="https://github.com/user-attachments/assets/9ed27c00-6981-4819-b48e-3ce099b5aeb7" />
+
 
 - Dataset Aggregation
   - CPTAC proteomics (tumor + normal), somatic mutations, clinical subtype files (CMS for colorectal).
