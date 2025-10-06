@@ -1,3 +1,6 @@
 [submodule "Disease_Subtyping_2022"]
 	path = Disease_Subtyping_2022
 	url = https://github.com/collaborativebioinformatics/Disease_Subtyping_2022.git
+[submodule "aws-opendata-samples"]
+	path = aws-opendata-samples
+	url = https://github.com/aws-samples/aws-opendata-samples.git
