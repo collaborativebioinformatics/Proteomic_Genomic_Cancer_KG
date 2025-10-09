@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "e54b4a4005b416a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "797690bea0d2363a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3731a6f64d3fdf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Paper Notes/0-Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-Template"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5940a1c9c6c1b71f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27358789906870a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Notes/Writer's Notes/Oct. 7, 2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Oct. 7, 2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "263a52449b31ed61",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dffb7a1fbfc0c0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dff23e926eae46f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "23b428b24471ce2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f5933d7d1a36c80d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 207.5
+  },
+  "right": {
+    "id": "dcc9ad6aa4021bb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a47a331ffc653890",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b1125b1265b6a8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "19cbca3efc2a9c67",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "052d61dfdf04695e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9ec4ce1366ad080c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d3731a6f64d3fdf4",
+  "lastOpenFiles": [
+    "2-Paper Notes/0-Highlight Guide.md",
+    "2-Paper Notes/0-Template.md",
+    "2-Paper Notes/Validating Subtype Specific Oncology Drug Predictions.md",
+    "2-Paper Notes/KG-Hub—building and exchanging biological knowledge graphs.md",
+    "2-Paper Notes/Building a knowledge graph to enable precision medicine.md",
+    "2-Paper Notes/A knowledge graph to interpret clinical proteomics data.md",
+    "3-Notes/Oct. 3, 2025/Oct. 3, 2025.md",
+    "3-Notes/Writer's Notes/Oct. 7, 2025.md",
+    "1-Concepts/PrimeKG.md",
+    "3-Notes/Oct. 3, 2025/Final Presentations.md",
+    "3-Notes/Writer's Notes/Oct. 2, 2025.md",
+    "3-Notes/Oct. 2, 2025/Oct. 2, 2025.md",
+    "3-Notes/Oct. 1, 2025/Project Introductions.md",
+    "3-Notes/Oct. 1, 2025/Oct. 1, 2025.md",
+    "README.md",
+    "2-Paper Notes/KG-Microbe - Building Modular and Scalable Knowledge Graphs for Microbiome and Microbial Sciences.md",
+    "0-Assets/Pasted image 20251006103716.png",
+    "3-Notes/Oct. 2, 2025/Accelerated Computational Workflows.md",
+    "3-Notes/Oct. 1, 2025/Workshop on Accessing Data from AWS Open Data.md",
+    "3-Notes/CKG Steps.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "3. Notes/Oct. 1, 2025/Group Notes.md",
+    "3. Notes/Oct. 3, 2025/Group Notes.md",
+    "3-Notes/Writer's Notes",
+    "1-Concepts/Santos et al./Clinical Knowledge Graph.md",
+    "1-Concepts/Consensus Molecular Subtypes.md",
+    "1-Concepts/Santos et al.",
+    "1-Concepts/Pasted image 20251004140737.png",
+    "3. Notes/Oct. 3, 2025/Oct. 3, 2025.md",
+    "3. Notes/Oct. 2, 2025/Group Notes.md",
+    "3-Notes/Oct. 3, 2025",
+    "3. Notes/Oct. 2, 2025/Biohackarxiv template.md",
+    "0-Assets/Pasted image 20251002085942.png",
+    "3-Notes/Oct. 2, 2025",
+    "aws-opendata-samples/projects/aws-era5-dask/dask-docker/prepare.sh",
+    "aws-opendata-samples/projects/aws-era5-dask/dask-docker/dask.yaml",
+    "aws-opendata-samples/projects/aws-era5-dask/dask-docker/Dockerfile",
+    "aws-opendata-samples/projects/aws-era5-dask/dask-environment.yaml",
+    "aws-opendata-samples/projects/aws-era5-dask/dask-docker",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/search-SNS.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/save-changes.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/create-topic.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/create-EN.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/copy-topic-arn.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/click-properties.png",
+    "aws-opendata-samples/guidances/images/onboard-to-the-open-data-program-and-set-up-update-notifications/click-edit.png"
+  ]
+}

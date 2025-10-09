@@ -1,0 +1,1 @@
+TSV format is a flattened serialization of the nodes and edges in a graph as tab- separated values

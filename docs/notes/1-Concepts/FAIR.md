@@ -1,0 +1,1 @@
+Findable, Accessible, Interoperable, and Reusable (FAIR)
